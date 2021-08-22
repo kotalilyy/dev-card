@@ -12,7 +12,7 @@ Thanks @[TylerPottsDev](https://github.com/TylerPottsDev)
 
 ## Contributions
 
-Created ❤️ with by Dakota Nelson
+Created with ❤️ by [Dakota Nelson](https://github.com/kotalilyy)
 
 ## Questions
 
