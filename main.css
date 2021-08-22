@@ -1,12 +1,12 @@
 :root {
-  --primary: #979397;
+  --primary: hsl(209, 89%, 81%);
   --secondary: #cb8ad8;
   --dark: #212121;
   --light: #f3f3f3;
 }
 
 body {
-  font-family: montserrat, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 100%;
   min-height: 100vh;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .card__face--front h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 32px;
 }
 
@@ -91,12 +91,37 @@ body {
 }
 
 .pp {
-    display: block;
-    width: 128px;
-    height: 128px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    background-color: #FFF;
-    border: 5px solid #FFF;
-    object-fit: cover;
-  }
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+.card__header h2 {
+  color: rgb(245, 237, 237);
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card__body {
+  padding: 30px;
+}
+
+.card__body h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card__body p {
+  color: var(--dark);
+  font-size: 19px;
+  line-height: 1.4;
+}
